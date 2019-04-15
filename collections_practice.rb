@@ -56,5 +56,6 @@ def add_s(array)
     binding.pry
     if array[word] != 1
     word.insert(word.length, "s" )
+  end
   end  
 end  
