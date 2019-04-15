@@ -70,7 +70,7 @@ describe 'collections practice' do
    # Question 10
   describe '#swap_elements_from_to' do
     it 'swaps two elements in an array' do
-      expect(swap_elements_from_to(["eanie", "meanie", "minie", "moe"], 4, 1)).to eq(["eanie", "meanie", "minie", "moe"])
+      expect(swap_elements_from_to(["eanie", "meanie", "minie", "moe"], 3, 1)).to eq(["eanie", "moe", "minie","meanie"])
     end
   end
 end
