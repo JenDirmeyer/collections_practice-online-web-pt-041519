@@ -40,8 +40,10 @@ end
  
  def find_a(array)
 
-   array.collect {|word| word.start_with?("a")}
-   
+   array.collect do |word| 
+     word.start_with?("a")
+     word
+   end
 end  
 
 def sum_array(array)
