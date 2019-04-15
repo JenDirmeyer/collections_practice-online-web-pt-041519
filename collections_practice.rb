@@ -54,7 +54,7 @@ end
 def add_s(array)
   array.each do |word| 
     binding.pry
-    if array[word] != 1
+    if array.index(word) != 1
     word.insert(word.length, "s" )
   end
   end  
