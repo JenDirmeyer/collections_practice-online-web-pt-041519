@@ -53,7 +53,7 @@ end
 
 def add_s(array)
   array.each do |word| 
-    binding.pry
+    #binding.pry
     if array.index(word) != 1
     word.insert(word.length, "s" )
   end
